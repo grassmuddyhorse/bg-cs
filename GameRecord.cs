@@ -3,7 +3,7 @@
  * File name:   GameRecord.cs
  * Author:  longdao      Date:  2014-8-23
  * 
- * Description:    // Bowing game record management
+ * Description:    // Bowing game record management,abstract class
  *                 
  * History:       //  
  * *********************************************************************************************/
@@ -14,15 +14,16 @@ using System.Linq;
 using System.Text;
 using System.IO;
 
-namespace Ours_Bowling
+namespace Record
 {
-    class GameRecord
+    abstract class GameRecord
     {
         /// <summary>
         ///  file path
         /// </summary>
         public string _recordPath = "GameRecord.txt";                // game record,contains players'playing info 
         public string _highScorePath = "HighScore.txt";              // high score record,contains high score info for top 4
+
 
         public string recordPath
         {
@@ -41,7 +42,7 @@ namespace Ours_Bowling
         /// Fuction:get game or high score record
         /// </summary>
         /// <returns></returns>
-        public string GetRecord(string path)
+        virtual public string GetRecord(string path)
         {
             StreamReader recordReader = new StreamReader(path);
             string recordLine = string.Empty;
@@ -54,7 +55,7 @@ namespace Ours_Bowling
         /// Fuction:save game or high score record
         /// </summary>
         /// <returns></returns>
-        public bool SaveRecord(string path,string game_record)
+        virtual public bool SaveRecord(string path, string game_record)
         {
             FileStream myStream = null;
             StreamWriter sWriter = null;
@@ -62,7 +63,7 @@ namespace Ours_Bowling
             {
                 myStream = new FileStream(path, FileMode.Append, FileAccess.Write);
                 sWriter = new StreamWriter(myStream);
-                sWriter.WriteLine(game_record);
+                sWriter.Write(game_record);
                 sWriter.Close();
                 myStream.Close();
                 return true;
@@ -80,7 +81,7 @@ namespace Ours_Bowling
         /// Fuction:get game record or high score,as lines
         /// </summary>
         /// <returns></returns>
-        public List<string> GetRecordLine(string path)
+        virtual public List<string> GetRecordLine(string path)
         {
             List<string> record_List = new List<string>();
             StreamReader recordReader = new StreamReader(path);
@@ -97,7 +98,7 @@ namespace Ours_Bowling
         /// Fuction:clear game or high score record
         /// </summary>
         /// <returns></returns>
-        public bool ClearRecord(string path)
+        virtual public bool ClearRecord(string path)
         {
             FileStream myStream = null;
             StreamWriter sWriter = null;

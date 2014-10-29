@@ -16,6 +16,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PlayerInfo;
 
 namespace Ours_Bowling
 {
@@ -60,8 +61,8 @@ namespace Ours_Bowling
                 playerTb.Width = Constants.TB_MAX_WIDTH;
                 this.PlayerNa_panel.Controls.Add(playerName);
                 this.PlayerNa_panel.Controls.Add(playerTb);
-                playerName.Location = new Point(Constants.POS_X+Constants.POS_X_ADD, (i)*Constants.POS_Y);
-                playerTb.Location = new Point(Constants.POS_X+Constants.POS_Y_ADD, (i) * Constants.POS_Y);
+                playerName.Location = new Point(Constants.POS_X + Constants.POS_X_ADD, (i) * Constants.POS_Y);
+                playerTb.Location = new Point(Constants.POS_X + Constants.POS_Y_ADD, (i) * Constants.POS_Y);
             }
 
         }
@@ -85,7 +86,9 @@ namespace Ours_Bowling
                         {
                             if (tb.Name.Equals(("Player " + (i + 1).ToString())))
                             {
-                                PlayerManagement.playInfo.Add((i + 1), tb.Text);
+                                TypeDef.playerStruc player = new TypeDef.playerStruc();
+                                player.playerName = tb.Text;
+                                PlayerManagement.playInfo.Add((i + 1), player);
                                 break;
                             }
                         }
@@ -102,6 +105,9 @@ namespace Ours_Bowling
                     }
                 }
             }
+            this.Hide();
+            GameMainForm mainForm = new GameMainForm(false);
+            mainForm.ShowDialog();
         }
 
 

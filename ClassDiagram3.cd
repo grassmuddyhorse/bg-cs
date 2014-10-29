@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ours_Bowling.BowlingStartForm">
+    <Position X="6" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAACIgAACAAAAACCABASAAAAAAAA=</HashCode>
+      <FileName>BowlingStartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Constants">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCABAAAEACAAAAAAEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.GameMainForm">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgQAEAAEACAgABAAAECgAAqGQQCIQAAEAAAAEAAAAAA=</HashCode>
+      <FileName>GameMainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.GameProgress" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.GameRecord">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABBQAgAAAAAAAAIAAAAAAAAAAAAAAACAgAAAAAA=</HashCode>
+      <FileName>GameRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.HighScore" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.PlayerManagement">
+    <Position X="3.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>PlayerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.PlayerManagementForm">
+    <Position X="8" Y="5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAACAACAAAAAAAACIgAACAAAAAJBAAoABAAAAAgg=</HashCode>
+      <FileName>PlayerManagementForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Program">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.TestBowlingGame">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestBowlingGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.TypeDef">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="Ours_Bowling.TypeDef.playerStruc" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TypeDef.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Ours_Bowling.TypeDef.curPlayer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TypeDef.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Ours_Bowling.TypeDef.TimeFlag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TypeDef.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="Ours_Bowling.TypeDef.timeScore" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>TypeDef.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

@@ -16,6 +16,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using PlayerInfo;
 
 namespace Ours_Bowling
 {
@@ -49,6 +50,37 @@ namespace Ours_Bowling
         private void Load_Button_Click(object sender, EventArgs e)
         {
             // read the game score
+            List<string> recordList=GameProgress.GetInstance().GetRecordLine(Constants.RECORD_PATH);
+            if (recordList.Count<=0)
+            {
+                MessageBox.Show("no record");
+                return;
+            }
+
+            TypeDef.playerStruc player = new TypeDef.playerStruc();
+            int lineNu=0,key = 0;
+            for (int i = recordList.Count-1; i >= 0; i--)
+            {
+                string record=recordList[i];
+                if (record.Equals("") && i != (recordList.Count - 1))
+                { lineNu = i; break; }  // locate the latest record
+            }
+
+            while (lineNu<recordList.Count-1)
+            {
+                string line = recordList[++lineNu];
+                if (!line.Equals(""))
+                {
+                    string[] items = line.Split('*');
+                    player.playerName = items[0];
+                    player.playerRecord = items[1];
+                    player.playerScore = Int32.Parse(items[2]);
+                    PlayerManagement.playInfo.Add(++key, player);
+                }
+            }
+            this.Visible = false;
+            GameMainForm gMain = new GameMainForm(true);
+            gMain.ShowDialog();
         }
 
 
@@ -60,6 +92,19 @@ namespace Ours_Bowling
         private void HighScore_Button_Click(object sender, EventArgs e)
         {
             // read the high score
+            HighScoreForm highForm = new HighScoreForm();
+            highForm.ShowDialog();
+        }
+
+
+        /// <summary>
+        /// Fuction:click the CLOSE button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void BowlingStartForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

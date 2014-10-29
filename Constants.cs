@@ -26,7 +26,13 @@ namespace Ours_Bowling
         public const int POS_Y_ADD = 120;           // controls added to the panel,y position added value
         public const int TB_MAX_LEN = 20;           // controls added to the panel,textbox enters max len
         public const int TB_MAX_WIDTH = 160;        // controls added to the panel,textbox max width
+        
+        public const int MAX_WIDTH = 200;           // 
 
-
+        /// <summary>
+        /// FILE path
+        /// </summary>
+        public const string RECORD_PATH = "GameRecord.txt";
+        public const string HIGH_SCORE_PATH = "HighScore.txt";  
     }
 }

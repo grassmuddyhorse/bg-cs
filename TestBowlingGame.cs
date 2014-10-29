@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using NUnit.Framework;
-
+using Record;
 
 namespace Ours_Bowling
 {
@@ -26,8 +26,8 @@ namespace Ours_Bowling
         {
             try
             {
-                GameRecord gRecord = new GameRecord();
-                Assert.AreEqual("Jam 1", gRecord.GetRecord(gRecord._recordPath));
+                GameRecord gRecord=new GameProgress();
+                Assert.AreEqual("Jam 1", gRecord.GetRecord("test.txt"));
             }
             catch (Exception ex)
             {

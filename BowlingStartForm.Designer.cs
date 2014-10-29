@@ -48,6 +48,7 @@
             // Start_Button
             // 
             this.Start_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Start_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Start_Button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Start_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Start_Button.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -63,6 +64,7 @@
             // Load_Button
             // 
             this.Load_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Load_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Load_Button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.Load_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Load_Button.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -78,6 +80,7 @@
             // HighScore_Button
             // 
             this.HighScore_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.HighScore_Button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HighScore_Button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.HighScore_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HighScore_Button.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -106,6 +109,7 @@
             this.MinimizeBox = false;
             this.Name = "BowlingStartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BowlingStartForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

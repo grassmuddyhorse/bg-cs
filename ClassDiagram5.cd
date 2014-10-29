@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ours_Bowling.BowlingStartForm">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAACIgAACAAQAACCABASAAAAAAAA=</HashCode>
+      <FileName>BowlingStartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Constants" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQCABAAAEACAAAAAAEAAIAAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.GameMainForm" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgQAEAAEACggABAEAECgACqGQQCYQAAEAAAANAAAAEA=</HashCode>
+      <FileName>GameMainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.GameProgress">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameProgress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.HighScore">
+    <Position X="1" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAABABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighScore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.HighScoreForm" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAECAAAgCAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighScoreForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.PlayerManagementForm" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACAACAAAAAAAACIgAACAAAAAJBAAoABAAAAAgg=</HashCode>
+      <FileName>PlayerManagementForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Program" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.SpareForm" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACQAABCAAACAAAACAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpareForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.TestBowlingGame" Collapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TestBowlingGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.TypeDef" Collapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Record.GameRecord">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEABBQAgAAAAAAAAIAAAAAAAAAAAAAAACAgAAAAAA=</HashCode>
+      <FileName>GameRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInfo.PlayerManagement">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAJAAAIAAAAAAAAAAAAAAgEAA=</HashCode>
+      <FileName>PlayerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Properties.Resources" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ours_Bowling.Properties.Settings">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>
